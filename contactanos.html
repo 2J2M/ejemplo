@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/balon.ico" />
+    <title>Mrs Chamis</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/principal.css">
+
+</head>
+<body>
+
+  <header class="header">
+
+    <div class="logo">
+      <img style="height: 200px; border-radius: 100px;" src="img/Logo_chamis.png" alt="logo">
+    </div>
+    
+    <div class="title">
+      <h1> Mrs Chamis</h1>
+      <p>Para los Verdaderos <b>Fanaticos</b></p>
+    </div>  
+
+</header>
+
+<nav class="nav">
+  <div class="buscar">
+      <input type="text" placeholder="Buscar Productos...">
+      <button type="submit"><img src="img/search.png" alt="Buscar"></button>
+  </div>
+  
+  <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+  </div>
+  
+  <div class="nav-links">
+      <a href="index.html">Inicio</a>
+      <a href="acerca_de_nosotros.html">Acerca de Nosotros</a>
+      <a href="contactanos.html">Contacto</a>
+  </div>
+</nav>
+
+<main class="row">
+
+
+
+  <section class="principal">
+    <main class="main">
+        <article class="formulario-contacto">
+            <h2>Contáctanos</h2>
+            <form action="https://httpbin.org/post" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                
+                <label for="numero">Número de Teléfono:</label>
+                <input type="tel" id="numero" name="numero" required>
+                
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </article>
+    </main>
+    </section>
+
+</main>
+
+<footer class="footer">
+  <h2>Mrs Chamis</h2>
+  <p><b>© 2024 Mrs Chamis  | mrschamis.com.hn | Todos los derechos reservados </b></p>
+</footer>
+
+<script src="js/principal.js"></script>
+<script src="js/barra.js"></script>
+
+</body>
+</html>

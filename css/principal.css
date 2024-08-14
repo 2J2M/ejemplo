@@ -1,0 +1,148 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.side{
+    flex: 20%;
+    padding: 20px;
+    background-color: white;
+    margin: 30px;
+
+}
+
+.btn{
+    display: flex;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color:  rgb(240, 240, 240);
+    text-align: center;
+    font-size: 23px;
+}
+
+.categorias{
+    list-style: none;
+    padding: 0; 
+}
+
+.categorias a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    background-color: rgb(237, 237, 237);
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+
+.categorias a:hover{
+    background-color: black;
+    color: white;
+}
+
+.principal{
+    flex: 60%;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 0;
+    background-color: white;
+}
+
+.img{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+}
+
+.fakeimg1{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    
+    border: 5px solid black;
+    padding: 100px;
+    background-color: gray;
+    background-image: url(../img/camisa_motagua.jpg);
+    background-position: center;
+    background-size: contain;
+   
+}
+
+.fakeimg2{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    
+    border: 5px solid black;
+    padding: 100px;
+    background-color: gray;
+    background-image: url(../img/camisa_marathon.png);
+    background-position: center;
+    background-size: contain;
+}
+.fakeimg3{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    
+    border: 5px solid black;
+    padding: 100px;
+    background-color: gray;
+    background-image: url(../img/camisa_españa.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+.fakeimg4{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    
+    border: 5px solid black;
+    padding: 100px;
+    background-color: gray;
+    background-image: url(../img/real_madrid.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.fakeimg5{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    
+    border: 5px solid black;
+    padding: 100px;
+    background-color: gray;
+    background-image: url(../img/barcelona.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+.fakeimg6{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    
+    border: 5px solid black;
+    padding: 100px;
+    background-color: gray;
+    background-image: url(../img/camisa_boca.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 40px;
+    color: white;
+    font-size: 20px;
+}
